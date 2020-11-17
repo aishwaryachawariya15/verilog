@@ -18,22 +18,4 @@ begin
   endcase
 
 end
-
-
-
-/* case ctrl is
-
-    when "00"=>
-        z <=  A+B;
-    when "01" =>
-	    z  <= A&B;
-	when "10" =>
-		z  <= A<<B ;
-	when "11" =>
-	    z  <= A>>B
-	when others =>
-			z <=(others => 'X');  
-
-endcase */
-
 endmodule
